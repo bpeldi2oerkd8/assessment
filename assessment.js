@@ -82,7 +82,7 @@ function assessment(userName){
     const index = sumOfCharCode % answers.length;
     let result = answers[index];
 
-    result = result.replace(/\{ userName \}/g, userName);
+    result = result.replace(/\{userName\}/g, userName);
     return result;
 }
 
